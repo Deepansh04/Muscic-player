@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawsome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- css file link -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <title>STUDIO</title>
+</head>
+
+<body>
+    
+    <audio autoplay>
+         <source src="assets/music.mp3" type="audio/mpeg">
+  </audio>
+  
+    <nav class="header">
+        <!-- logo and favourite songs option -->
+        <div class="logonfav">
+            <!-- adding logo nd name -->
+            <div class="logo">
+                <img src="assets/logo.jpg" alt="logo">
+                <div class="title">
+                    <div>
+                        Bansal's
+                    </div>
+                    <div>
+                        Studio
+                    </div>
+                </div>
+
+            </div>
+            <!-- adding favourite -->
+            <div class="fav">
+                <a href="#">Favourite</a>
+            </div>
+
+        </div>
+        <!-- search nd nodifications -->
+        <div class="search-nod">
+            <!-- search -->
+
+            <button class="sb" type="button"><i class="fas fa-search"></i></button>
+
+            <input type="text" placeholder="search">
+            <button class="sb" type="button"><i class="fas fa-microphone"></i></button>
+            <span id="bell">
+                <i class="fas fa-bell"></i>
+                <div class="active"></div>
+            </span>
+            <div class="user-img">
+                <img src="assets/self_logo.jpg" alt="img">
+
+            </div>
+    </nav>
+    <!-- *******************************main****************************************************** -->
+    <main>
+        <div class="about-artist">
+            <div id="singer-img">
+                <img src="assets/singer.jpg">
+            </div>
+            <div class="info-artist">
+                <div class="name-song">
+                    <h4>COLD PLAY</h4>
+                    <span>144 followers</span>
+                </div>
+                <p>British Band</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae voluptatibus veniam quod id
+                    perspiciatis, nisi praesentium sint dolore est distinctio repudiandae! Voluptas aliquid quidem
+                    tenetur quaerat ipsa totam maxime! Beatae quos illo vero impedit!</p>
+                    <div class="btn">
+                <button type="button" id="play-button">Play Now</button>
+                <span>Follow</span>    
+            </div>
+                <p>247T racks | 147 items</p>
+            </div>
+        </div>
+        <div id="aside" class="bottom">
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div class="no">01</div>
+                    <div>
+                        <img src="assets/white-flower.jpg">
+                    </div>
+                    <div>
+                        <div class="a-name">Allice</div>
+                        <div class="s-name">Flume</div>
+                    </div>
+                </div>
+                <div class="icon-div">
+                    <i class="fas fa-plus"></i>
+                    <i class="far fa-heart"></i>
+                </div>
+
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div class="no">02</div>
+                    <div>
+                        <img src="assets/pink-flower.jpg">
+                    </div>
+                    <div>
+                        <div class="a-name">Bloosun</div>
+                        <div class="s-name">preety</div>
+                    </div>
+                </div>
+                <div class="icon-div">
+                    <i class="fas fa-plus"></i>
+                    <i class="far fa-heart"></i>
+                </div>
+
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div class="no"><i class="fas fa-headphones"></i></div>
+                    <div>
+                        <img src="assets/white-flower.jpg">
+                    </div>
+                    <div>
+                        <div class="a-name">Allice</div>
+                        <div class="s-name">Flume</div>
+                    </div>
+                </div>
+                <div class="icon-div">
+                    <i class="fas fa-plus"></i>
+                    <i class="far fa-heart"></i>
+                </div>
+
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div class="no">04</div>
+                    <div>
+                        <img src="assets/party.jpg">
+                    </div>
+                    <div>
+                        <div class="a-name">Party</div>
+                        <div class="s-name">Enjoy</div>
+                    </div>
+                </div>
+                <div class="icon-div" >
+                    <i class="fas fa-plus"></i>
+                    <i class="far fa-heart"></i>
+                </div>
+
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div class="no">05</div>
+                    <div>
+                        <img src="assets/white-flower.jpg">
+                    </div>
+                    <div>
+                        <div class="a-name">Allice</div>
+                        <div class="s-name">Flume</div>
+                    </div>
+                </div>
+                <div class="icon-div">
+                    <i class="fas fa-plus"></i>
+                    <i class="far fa-heart"></i>
+                </div>
+
+            </div>
+
+
+        </div>
+      
+
+        </main>
+          <!--******************************************** aside *******************************************-->
+          <aside id="aside">
+            <div class="queue-heading-div">
+                <div class="first e-big">
+                    Similar aritist
+                </div>
+                <div class="second s-a">
+                view all
+                </div>
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div>
+                    <img src="assets/similar-artist.jpg"></div>
+                    <div>
+                        <div class="a-name big">Imagine</div>
+                       <div class="s-name">Pop</div>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-h"></i>
+                    <div class="small">4.44</div>
+                </div>
+    
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div>
+                    <img src="assets/similar-artist.jpg"></div>
+                    <div>
+                        <div class="a-name big">Imagine</div>
+                       <div class="s-name">Pop</div>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-h"></i>
+                    <div class="small">4.44</div>
+                </div>
+    
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div>
+                    <img src="assets/similar-artist.jpg"></div>
+                    <div>
+                        <div class="a-name big">Imagine</div>
+                       <div class="s-name">Pop</div>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-h"></i>
+                    <div class="small">4.44</div>
+                </div>
+    
+            </div>
+            <!-- recently played -->
+            <div class="queue-heading-div">
+                <div class="first e-big">
+                    Recently-played
+                </div>
+                <div class="second s-a">
+                view all
+                </div>
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div class="no">01</div>
+                    <div>
+                    <img src="assets/white-flower.jpg"></div>
+                    <div>
+                        <div class="a-name">Allice</div>
+                       <div class="s-name">Flume</div>
+                    </div>
+                </div>
+                <div>
+                    <i class="far fa-heart"></i>
+                </div>
+    
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div class="no">02</div>
+                    <div>
+                    <img src="assets/pink-flower.jpg"></div>
+                    <div>
+                        <div class="a-name">Bloosun</div>
+                       <div class="s-name">preety</div>
+                    </div>
+                </div>
+                <div>
+                    <i class="far fa-heart"></i>
+                </div>
+    
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div class="no"><i class="fas fa-headphones"></i></div>
+                    <div>
+                    <img src="assets/white-flower.jpg"></div>
+                    <div>
+                        <div class="a-name">Allice</div>
+                       <div class="s-name">Flume</div>
+                    </div>
+                </div>
+                <div>
+                    <i class="far fa-heart"></i>
+                </div>
+    
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div class="no">04</div>
+                    <div>
+                    <img src="assets/party.jpg"></div>
+                    <div>
+                        <div class="a-name">Party</div>
+                       <div class="s-name">Enjoy</div>
+                    </div>
+                </div>
+                <div>
+                    <i class="far fa-heart"></i>
+                </div>
+    
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div class="no">05</div>
+                    <div>
+                    <img src="assets/white-flower.jpg"></div>
+                    <div>
+                        <div class="a-name">Allice</div>
+                       <div class="s-name">Flume</div>
+                    </div>
+                </div>
+                <div>
+                    <i class="far fa-heart"></i>
+                </div>
+    
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div class="no">06</div>
+                    <div>
+                    <img src="assets/pink-flower.jpg"></div>
+                    <div>
+                        <div class="a-name">Bloosun</div>
+                       <div class="s-name">preety</div>
+                    </div>
+                </div>
+                <div>
+                    <i class="far fa-heart"></i>
+                </div>
+    
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div class="no">07</div>
+                    <div>
+                    <img src="assets/white-flower.jpg"></div>
+                    <div>
+                        <div class="a-name">Allice</div>
+                       <div class="s-name">Flume</div>
+                    </div>
+                </div>
+                <div>
+                    <i class="far fa-heart"></i>
+                </div>
+    
+            </div>
+            <div class="main-queue">
+                <div class="inner-div">
+                    <div class="no">08</div>
+                    <div>
+                    <img src="assets/party.jpg"></div>
+                    <div>
+                        <div class="a-name">Party</div>
+                       <div class="s-name">Enjoy</div>
+                    </div>
+                </div>
+                <div>
+                    <i class="far fa-heart"></i>
+                </div>
+    
+            </div>
+        </aside>
+        <!-- ****************************************footer********************************************* -->
+        <footer id="foot">
+            <div class="artist-img-name">
+                <img src="assets/onism.jpg">
+                <span>
+                    <h6>
+                        Onsium by jonh
+                    </h6>
+                    <p>
+                        jonh smith
+                    </p>
+                </span>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-ban"></i>
+            </div>
+            <div class="linebar">
+                <div class="icon">
+                    <i class="fas fa-caret-left fa-2x"></i>
+                    <i class="far fa-pause-circle fa-2x"></i>
+                    <i class="fas fa-caret-right fa-2x"></i>
+                    <i class="fas fa-sync-alt"></i>
+
+                </div>
+                <div class="timeline">
+                    <span class="t">4.44</span>
+                    <div class="time">
+                        <div class="line"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <span class="t">2.33</span>
+                </div>
+
+            </div>
+            <div class="sound">
+                <i class="fas fa-volume-up"></i>
+                <div class="time">
+                    <div class="line green"></div>
+                    <div class="dot"></div>
+                </div>
+
+           
+        </footer>
+</body>
+
+</html>
